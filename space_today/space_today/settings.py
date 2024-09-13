@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 import os
+from shutil import which
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -53,7 +54,7 @@ INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
-NPM_BIN_PATH = "/usr/local/bin/npm"#"D:/Program Files/nodejs/npm.cmd"
+NPM_BIN_PATH = which("npm")
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
