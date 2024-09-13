@@ -8,7 +8,8 @@ pip install --upgrade pip
 pip install --force-reinstall -U setuptools
 pip install -r requirements.txt
 
-npm install rimraf
+npm i rimraf
+npm i --save-dev cross-env
 
 python3 manage.py tailwind build
 python3 manage.py collectstatic --noinput
