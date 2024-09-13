@@ -122,6 +122,7 @@
     pageNumberValue = pageNumber;
     pageNumberTag.innerHTML = pageNumberValue;
     mapData();
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   });
 
   nextButton.addEventListener("click", () => {
@@ -133,6 +134,7 @@
     pageNumberValue = pageNumber;
     pageNumberTag.innerHTML = pageNumberValue;
     mapData();
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   });
 </script>
 
