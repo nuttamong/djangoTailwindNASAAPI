@@ -85,7 +85,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'space_today.wsgi.application'
+WSGI_APPLICATION = 'space_today.wsgi.app'
 
 
 # Database
