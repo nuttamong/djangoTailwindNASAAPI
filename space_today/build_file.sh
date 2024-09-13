@@ -14,6 +14,7 @@ npm i tailwindcss
 npm i --save-dev postcss-simple-vars
 npm i -D @tailwindcss/forms
 npm i -D @tailwindcss/typography
+npm i -D @tailwindcss/aspect-ratio
 npm audit fix
 
 python3 manage.py tailwind build
