@@ -23,5 +23,7 @@
       "src": "/(.*)",
       "dest": "space_today/wsgi.py"
     }
-  ]
+  ],
+  "installCommand": "npm install",
+  "buildCommand": "next build"
 }
