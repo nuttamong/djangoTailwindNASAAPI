@@ -24,6 +24,6 @@
       "dest": "space_today/wsgi.py"
     }
   ],
-  "installCommand": "npm install",
+  "installCommand": "npm install rimraf",
   "buildCommand": "next build"
 }
