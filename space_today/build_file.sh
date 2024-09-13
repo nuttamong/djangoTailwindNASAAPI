@@ -12,6 +12,7 @@ npm i rimraf
 npm i --save-dev cross-env
 npm i tailwindcss
 npm i --save-dev postcss-simple-vars
+npm i -D @tailwindcss/forms
 
 python3 manage.py tailwind build
 python3 manage.py collectstatic --noinput
