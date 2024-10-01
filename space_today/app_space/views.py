@@ -14,7 +14,7 @@ class Apod:
         apod_res = requests.get(url_apod)
         self.apod_loaded_data = json.loads(apod_res.text)
         self.daily_image = self.apod_loaded_data['url']
-        self.url_image = self.apod_loaded_data['hdurl']
+        self.url_image = self.apod_loaded_data['url']
         self.title = self.apod_loaded_data['title']
         self.explanation = self.apod_loaded_data['explanation']
         self.date = self.apod_loaded_data['date']
